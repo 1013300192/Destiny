@@ -1,8 +1,8 @@
-package com.example.eyeshieldtablelamp.ghj5_1to5_3;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.example.eyeshieldtablelamp.GHJ;
 
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.eyeshieldtablelamp.R;
 
