@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.EyeshieldTableLamp">
-        <activity android:name=".LXY.B"></activity>
+        <activity android:name=".LXY.SittingPosture"
+            android:theme="@style/Back"
+            android:label="@string/SittingPosture"></activity>
+        <activity android:name=".LXY.Score"
+            android:theme="@style/Back"
+            android:label="@string/Score"></activity>
+        <activity android:name=".LXY.Concentration"
+            android:theme="@style/Back"
+            android:label="@string/Concentration"></activity>
         <activity android:name=".GHJ.A" />
         <activity android:name=".GHJ.LoginActivity"/>
         <activity android:name=".GHJ.RegisterActivity"/>

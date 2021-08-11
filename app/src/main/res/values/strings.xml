@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Eye Shield Table Lamp</string>
     <string name="add">Add</string>
+    <string name="SittingPosture">坐姿分析</string>
+    <string name="Score">数据评分</string>
+    <string name="Concentration">专注情况</string>
 </resources>
