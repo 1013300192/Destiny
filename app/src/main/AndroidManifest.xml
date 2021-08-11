@@ -9,32 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.EyeshieldTableLamp">
-        <activity
-            android:name=".LXY.Concentration"
-            android:theme="@style/Back"
-            android:label="专注情况"/>
-        <activity
-            android:name=".LXY.Score"
-            android:theme="@style/Back"
-            android:label="数据评分">
-        </activity>
-        <activity
-            android:name=".LXY.SittingPosture"
-            android:theme="@style/Back"
-            android:label="坐姿分析">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".LXY.B"></activity>
         <activity android:name=".GHJ.A" />
-        <activity android:name=".GHJ.LoginActivity" />
-        <activity android:name=".GHJ.RegisterActivity" />
+        <activity android:name=".GHJ.LoginActivity"/>
+        <activity android:name=".GHJ.RegisterActivity"/>
         <activity android:name=".YBF.TL_management" />
         <activity android:name=".YBF.Personal_information" />
         <activity android:name=".YBF.Pomodoro" />
-        <activity android:name=".YBF.Task_management"></activity>
+        <activity android:name=".YBF.Task_management">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
